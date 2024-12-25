@@ -142,12 +142,7 @@
         });
     }
 
-    // Lưu lại câu trả lời khi người dùng thay đổi hoặc chuyển tab
-    document.addEventListener('visibilitychange', function() {
-        if (!document.hidden) {
-            saveAnswers();  // Lưu trạng thái khi chuyển sang trang này
-        }
-    });
+
 
     // Khôi phục câu trả lời đã lưu khi trang tải lại
     $(document).ready(function() {
